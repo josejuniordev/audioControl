@@ -2,4 +2,4 @@
 
 A simple Audio Element control with Javascript
 
-[Examples](https://junioradorart.github.io/audioControl/examples/key-drums/)
+[Examples](https://junioradorart.github.io/audioControl/examples)
