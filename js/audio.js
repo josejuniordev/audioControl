@@ -1,7 +1,7 @@
-var jAudio = function(){
+var jAudio = function(url){
   var that = this;
   that.active = true;
-  that.soundUrl = "https://www.soundjay.com/button/sounds/beep-01a.mp3";
+  that.soundUrl = url || "https://www.soundjay.com/button/sounds/beep-01a.mp3";
   that.sound = {};
 
   that.__init = function(){
@@ -23,7 +23,7 @@ var jAudio = function(){
 
   that.playSound = function(){
     that.stopSound();
-    
+
     if (!that.active) {
       return false;
     }
